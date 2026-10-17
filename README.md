@@ -5,7 +5,7 @@ FX Adaptive Algorithmic Bot
 Python with numpy, pandas and scipy. It doesn’t need matplotlib or your period_converter.
 
 ## Data: 
-your histdata.com 1-minute MT files. Put several months or years of one pair in a folder, since one year is thin for walk-forward testing.
+Histdata.com 1-minute MT files. Put several months or years of one pair in a folder, since one year is thin for walk-forward testing.
 
 - Run it from the command line:
   - python fx_adaptive_bot.py --data "C:/data/AUDJPY/**/DAT_MT_AUDJPY_M1_*.csv" --tf 30min --cost 0.000035
